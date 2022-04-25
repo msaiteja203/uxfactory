@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>day 55</title>
+        <style>
+            body{
+                color: red;
+            }
+            #header{
+                color: rgb(255, 0, 0);
+            }
+            .hood{
+                float: right;
+                font-size: 50px;
+                border: double 5px red;
+            }
+            .blue{
+                background-color: blue;
+                text-align: center;
+                color: white;
+            }
+            .info{
+                text-align: center;
+                border-left-color:orange ;
+                color: rgb(17, 16, 16);
+            }
+            .grop{
+                flex-direction: row-reverse;
+            }
+            .gender{
+                text-align: center;
+                color: black;
+            }
+            .email{
+                text-align: center;
+                color: black;
+            }
+            .reset{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="hood">
+        <a id="header" href="#">join now</a>
+        </div>
+        <a href="#">
+        <img src="sss.jpeg"></a>
+        <div class="blue">
+            <h3>Member area</h3>
+            <h1>login</h1>
+        </div>
+        <div class="drop">
+            <label>menu</label>
+        <select id="types" name="main menu">
+            <option>safety precaution</option>
+            <option>forgot pin</option>
+        </select>
+    </div>
+        <div class="info">
+        <form action="/register/registration.aspk"
+        method="post"
+        name="register form"
+        id="register"
+        class="registration">
+        <label>firstname</label>
+        <input type="text" id="fstname" placeholder="enter your first name" required><br><br>
+        <label>last name</label>
+        <input type="text" id="lstname" placeholder="enter your lst name" required><br><br>
+        <div class="email">
+            <label for="email">email</label>
+            <input type="email" id="email" name="email">
+        </div><br><br>
+        <label>password</label>
+        <input type="password" id="password" required>
+    </div><br><br>
+    <div class="gender">
+    <label>choose gender</label>
+    <input type="radio" name="gender" value="male" id="gender">
+    <label for="female">female</label>
+    <input type="radio" id="gender" name="gender" value="female">
+</div><br><br>
+<div class="reset">
+       <input type="submit" value="login"><br><br>
+       <input type="reset"><br><br>
+       </div>
+    </form> 
+    </body>
+</html>
